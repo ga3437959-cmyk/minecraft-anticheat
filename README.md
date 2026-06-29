@@ -160,8 +160,8 @@ MIT License
 
 ## 👤 Author
 
-**ga3437959-cmyk**
-- Senior Developer - 29+ anos experiência
+**gabriel**
+- Senior Developer - 13+ anos experiência
 - Especialista em Java, Bukkit, Anti-Cheat
 - Enterprise-grade code quality
 
