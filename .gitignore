@@ -1,0 +1,15 @@
+# AntiCheat
+
+target/
+*.jar
+*.class
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.log
+.DS_Store
+*.db
+.gradle/
+build/

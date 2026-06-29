@@ -1,0 +1,56 @@
+anticheat:
+  enabled: true
+  debug: false
+  database:
+    type: SQLITE
+    sqlite:
+      file: "anticheat.db"
+  
+  aggression_level: 5
+  
+  checks:
+    speed:
+      enabled: true
+      aggressive: true
+      threshold: 7.5
+      violations_to_kick: 3
+      violations_to_ban: 8
+    
+    fly:
+      enabled: true
+      aggressive: true
+      max_ascension: 0.42
+      violations_to_kick: 2
+      violations_to_ban: 5
+    
+    reach:
+      enabled: true
+      aggressive: true
+      max_reach: 4.5
+      violations_to_kick: 5
+      violations_to_ban: 12
+    
+    autoclick:
+      enabled: true
+      aggressive: true
+      max_cps: 18
+      violations_to_kick: 4
+      violations_to_ban: 10
+    
+    badpackets:
+      enabled: true
+      aggressive: true
+      violations_to_kick: 2
+      violations_to_ban: 5
+  
+  validation:
+    enabled: true
+    confidence_threshold: 85
+  
+  punishment:
+    warn_threshold: 10
+    kick_threshold: 25
+    ban_threshold: 50
+    ban_hours: 24
+    notify_staff: true
+    announce_ban: true
